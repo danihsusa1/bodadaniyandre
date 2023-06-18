@@ -1,0 +1,28 @@
+/*  pink color style    */
+.preloader .loader i,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.header .nav ul li a.active,
+.header .nav ul li a:hover {
+  color: #f3ca4c;
+}
+
+.preloader .loader:before {
+  border-right: 3px solid #a49f08;
+}
+
+.event-section .event-item-inner2:before,
+.event-section .event-item-inner:before {
+  border-color: #0f1170;
+}
+
+.event-section {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    341deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(2, 2, 38, 1) 55%,
+    rgba(50, 51, 89, 1) 100%
+  );
+}
